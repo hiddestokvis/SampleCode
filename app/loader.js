@@ -56,9 +56,7 @@ export default class Loader {
     let self = this;
     this.folders.forEach(function(folder) {
 
-      self.loadFolder(folder,3).then(function(){
-        console.log('done');
-      })
+      self.loadFolder(folder,3);
 
     });
   }
