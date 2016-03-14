@@ -1,0 +1,50 @@
+{
+  "name": "NeverhideSampleCode",
+  "version": "1.0.0",
+  "description": "Sample code for TopTal",
+  "author": "Hidde Stokvis",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiddestokvis/SampleCode"
+  },
+  "devDependencies": {
+    "babel-eslint": "^2.0.2",
+    "browser-sync": "^2.5.2",
+    "bundle-less": "^0.0.3",
+    "connect-history-api-fallback": "^0.0.5",
+    "fs-extra": "^0.18.0",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.8.0",
+    "gulp-html-replace": "^1.4.4",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.9.0",
+    "gulp-minify-html": "^1.0.2",
+    "jasmine-core": "^2.2.0",
+    "jspm": "^0.15.1",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-jspm": "^1.1.4",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-phantomjs-shim": "^1.0.0",
+    "karma-spec-reporter": "^0.0.18",
+    "require-dir": "^0.3.0",
+    "rimraf": "^2.3.2",
+    "run-sequence": "^1.0.2"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "normalize.css": "github:necolas/normalize.css@^3.0.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel@^4.7.16",
+      "babel-runtime": "npm:babel-runtime@^4.7.16",
+      "core-js": "npm:core-js@^0.8.1"
+    }
+  }
+}
